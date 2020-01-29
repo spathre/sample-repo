@@ -15,9 +15,9 @@ function sendMessage(){
             document.getElementById("errorMessage").setAttribute("hidden","true");  
             let payload = {
                 "firstName": firstName,
-                "email": Email,
-                "message": message,
-                "mobile": mobilenumber
+                "em": Email,
+                "mes": message,
+                "mob": mobilenumber
                 }
                 console.log("payload",payload);
                  event.preventDefault();
